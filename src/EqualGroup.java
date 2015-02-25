@@ -96,10 +96,10 @@ public class EqualGroup {
 	
 	public static void print(String user, ArrayList list){
 		
-		System.out.print("\n\n Your team members are: ");
+		System.out.print("\nYour team members are: ");
 		for (int i = 0; i < list.size(); i++) {
 			if(!list.get(i).equals(user)){
-				System.out.print( list.get(i) + "  ");
+				System.out.print( list.get(i) + "@csumb.edu" + "  ");
 			}
         }
 		
